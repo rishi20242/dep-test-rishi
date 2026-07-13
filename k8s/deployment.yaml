@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: DOCKER_USER/my-app:IMAGE_TAG
+        image: IMAGE_PLACEHOLDER  # This will be replaced by the pipeline
         ports:
         - containerPort: 80
