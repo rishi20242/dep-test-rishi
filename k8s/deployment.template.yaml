@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: teslaguy007/my-app:10  # This will be replaced by the pipeline
+        image: teslaguy007/my-app  # This will be replaced by the pipeline
         ports:
         - containerPort: 80
